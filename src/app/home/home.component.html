@@ -1,0 +1,30 @@
+<div id="main" >
+    <div class="row">
+      <!-- <div class="col-2 col-sm-3 col-lg-3" id="navBar-div" *ngIf="hide || !isMobile">
+        <app-nav-menu id="navBar" [games]="games"></app-nav-menu>
+      </div> -->
+      <div class="col-sm-8 col-lg-9"  id="cards-div"> 
+        <div class="row">
+          <div class="col-sm-10" style="margin: auto;"> 
+            <app-card id="card" [players]="players"></app-card>
+          </div>    
+        </div>
+      </div>
+    </div>
+    <div id="metodos">
+        <label for="playerName ">Player name: </label>
+        <input id="playerName " #playerName />
+        
+        <label for="playerPosition">Player position: </label>
+        <input id="playerPosition" #playerPosition />
+        
+        <label for="playerFoot">Player foot: </label>
+        <input id="playerFoot" #playerFoot />
+        
+        <label for="playerAge">Player age: </label>
+        <input id="playerAge" #playerAge />
+        <button (click)="addPlayer(playerName.value, playerPosition.value,playerFoot.value,playerAge.value);" class="btn btn-primary add-button">Agregar Jugador</button>
+
+    </div>
+</div>
+  

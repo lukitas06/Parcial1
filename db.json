@@ -1,0 +1,52 @@
+{
+  "jugadores": [
+    {
+      "id": 2,
+      "name": "Muslera",
+      "posicion": "Arquero",
+      "pie": "Derecho",
+      "edad": "25",
+      "foto": "./src/assets/imagesParcial/m2-card.png"
+    },
+    {
+      "id": 2,
+      "name": "Godin",
+      "posicion": "Central",
+      "pie": "Derecho",
+      "edad": "25",
+      "foto": "./src/assets/imagesParcial/m2-card.png"
+    },
+    {
+      "id": 2,
+      "name": "Coates",
+      "posicion": "Central",
+      "pie": "Derecho",
+      "edad": "30",
+      "foto": "./src/assets/imagesParcial/m2-card.png"
+    },
+    {
+      "id": 2,
+      "name": "Caceres",
+      "posicion": "Lateral Derecho",
+      "pie": "Derecho",
+      "edad": "29",
+      "foto": "./src/assets/imagesParcial/m2-card.png"
+    },
+    {
+      "id": 2,
+      "name": "Piquerez",
+      "posicion": "Lateral Izquierdo",
+      "pie": "Izquierdo",
+      "edad": "22",
+      "foto": "./src/assets/imagesParcial/m2-card.png"
+    },
+    {
+      "id": 25,
+      "name": "sds",
+      "posicion": "sdsd",
+      "pie": "sdsd",
+      "edad": null,
+      "foto": "assets/imagesParcial/m2-card.png"
+    }
+  ]
+}
