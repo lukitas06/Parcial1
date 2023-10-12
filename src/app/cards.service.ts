@@ -25,9 +25,9 @@ export class CardsService {
   }
 
     addPlayer(name:String, posicion:String, foot: String, age:String): Observable<Card[]>{
-      
+      const headers = { 'content-type': 'application/json'} 
       const player: Card={
-      "id": 25,
+      "id": 26,
       "name":name,
       "posicion": posicion,
       "pie": foot,
@@ -35,6 +35,6 @@ export class CardsService {
       "foto": "assets/imagesParcial/m2-card.png"
     }
     
-    return  this.http.post<Card[]>(this.url,player);
+    return  this.http.post<Card[]>(this.url,JSON.stringify(player),{'headers':headers});
   }
 }

@@ -31,6 +31,7 @@ export class HomeComponent implements OnInit{
   }
   addPlayer(name:String, posicion:String, foot: String, age:String){
 
+    
     this.cardService.addPlayer(name,posicion,foot,age).subscribe(
       response=> console.log(response.entries)
     );

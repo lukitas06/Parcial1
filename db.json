@@ -47,6 +47,14 @@
       "pie": "sdsd",
       "edad": null,
       "foto": "assets/imagesParcial/m2-card.png"
+    },
+    {
+      "id": 26,
+      "name": "",
+      "posicion": "",
+      "pie": "",
+      "edad": 0,
+      "foto": "assets/imagesParcial/m2-card.png"
     }
   ]
 }
